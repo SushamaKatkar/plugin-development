@@ -1,0 +1,3 @@
+com\aspl\jira\plugin\api\MyPluginComponent.class
+com\aspl\jira\plugin\servlet\TestServlet.class
+com\aspl\jira\plugin\impl\MyPluginComponentImpl.class

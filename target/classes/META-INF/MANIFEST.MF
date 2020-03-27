@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2020-03-27T11:56:43+0530
+Atlassian-Plugin-Key: com.aspl.jira.plugin.training_test
+Bnd-LastModified: 1585290407709
+Build-Jdk: 1.8.0_20
+Built-By: shekhar
+Bundle-Description: This is the com.aspl.jira.plugin:training_test plugi
+ n for Atlassian JIRA.
+Bundle-DocURL: http://www.example.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: training_test
+Bundle-SymbolicName: com.aspl.jira.plugin.training_test
+Bundle-Vendor: Example Company
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.aspl.jira.plugin.api;version="1.0.0"
+Import-Package: org.springframework.osgi.context;resolution:=optional,or
+ g.springframework.osgi.service.exporter.support;resolution:=optional,or
+ g.springframework.osgi.service.importer.support;resolution:=optional,or
+ g.eclipse.gemini.blueprint.context;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.exporter;resolution:=optional,org.eclipse.gemini.
+ blueprint.service.exporter.support;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.importer.support;resolution:=optional,com.aspl.ji
+ ra.plugin.api,com.atlassian.plugin.osgi.factory,com.atlassian.sal.api,c
+ om.google.common.base,com.google.common.collect,javax.annotation,javax.
+ inject,javax.servlet,javax.servlet.http,org.apache.commons.lang,org.apa
+ che.commons.logging,org.osgi.framework,org.slf4j,org.springframework.ao
+ p.support,org.springframework.beans,org.springframework.beans.factory,o
+ rg.springframework.beans.factory.annotation,org.springframework.beans.f
+ actory.config,org.springframework.beans.factory.parsing,org.springframe
+ work.beans.factory.support,org.springframework.beans.factory.xml,org.sp
+ ringframework.context.annotation,org.springframework.core.io,org.spring
+ framework.stereotype,org.springframework.util,org.w3c.dom
+Spring-Context: *
+Tool: Bnd-3.5.0.201709291849
